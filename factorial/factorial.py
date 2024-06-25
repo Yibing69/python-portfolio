@@ -1,7 +1,6 @@
 def factorial(n):
-    if n <= 2:
-        return n
-    elif n <= 3:
-        return n*2
-    elif n <= 4:
-        return n * 6
+    if n==0:
+        return 1
+    return n * factorial(n-1)
+
+print(factorial(3))

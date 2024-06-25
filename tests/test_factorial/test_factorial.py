@@ -1,5 +1,5 @@
 from factorial.factorial import factorial
-# 5! = 5 * 4 * 3 * 2 * 1 = 120
+# 4 * (3 * (2 * (1)))
 
 def test_factorial():
     assert factorial(1) == 1
