@@ -1,4 +1,6 @@
 from factorial.factorial import factorial
+
+
 # 4 * (3 * (2 * (1)))
 
 def test_factorial():
