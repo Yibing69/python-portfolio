@@ -21,3 +21,8 @@ s = "Hello, World!"
 print(s.lower())  # Output: hello, world!
 print(s.upper())  # Output: HELLO, WORLD!
 print(s.title())  # Output: Hello, World!
+print(len(s))  # Output: 13  // Die länge von "s"
+
+r_method = "Hello World!"
+print(r_method.replace("World", "Friend"))
+# Output: Hello Friend // .replace um einen String zu ersetzten
