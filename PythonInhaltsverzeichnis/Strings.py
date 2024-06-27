@@ -14,3 +14,10 @@ print(beispiel[0:])
 alter = int(input("Wie alt bist du?"))
 print(alter)
 # Wenn man im Input eine Zahl eingibt, wird die Zahl kein Integer sein sonder ein String deswegen "int(input())
+
+
+# String Methods
+s = "Hello, World!"
+print(s.lower())  # Output: hello, world!
+print(s.upper())  # Output: HELLO, WORLD!
+print(s.title())  # Output: Hello, World!
