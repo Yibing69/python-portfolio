@@ -14,6 +14,6 @@ number.clear()  # Clears the list
 
 number.sort()  # Sorts the list
 
-number.insert(0, 0)  # Adds an element in a specific position
+number.insert(0, 0)  # Adds an element in a specific position // Adds "0" in the first position
 
 number.index(0)  # Returns the index of the first element with the specified value
